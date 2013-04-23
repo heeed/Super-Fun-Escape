@@ -47,7 +47,7 @@
         <div class="span10">
 		 <div class="hero-unit">
         <h3>Super Fun Escape!</h3>
-	<p>A simple HTML5 game where you must escape into the purple portal, Left & Right for movement, Space for Jump</p>
+	<p>A simple HTML5 game where you must escape into the purple portal, Left & Right for movement, Up for Jump</p>
      </div>
 		<iframe src = "game.php" width = "100%" style = "min-height:400px; height:100%"></iframe>
         </div>
