@@ -3,7 +3,7 @@ window.addEventListener("load",function() {
 
 // Setup engine
 var Q = window.Q = Quintus()
-        .include("Sprites, Scenes, Input, 2D, Touch, UI") //Include Components
+        .include("Sprites, Scenes, Input, 2D, Touch, UI, Anim") //Include Components
         // Maximize
         .setup({ maximize: true})
         // allow touch and normal controlls
@@ -73,6 +73,9 @@ Q.Sprite.extend("Enemy",{
 // Create the level
 Q.scene("level1",function(stage) {
 
+
+	//Whew new feature! Parralax background!
+  stage.insert(new Q.Repeater({ asset: "background-wall.jpg", speedX: 0.5, speedY: 0.5 }));
 
   // Add in the tiles from the .json sheet
   stage.collisionLayer(new Q.TileLayer({
