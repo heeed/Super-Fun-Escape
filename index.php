@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Ryan Walmsley">
-
+<link rel="icon" type="image/png" href="images/icon.png" />
     <!-- Le styles, ooo le meeme :D -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
