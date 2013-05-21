@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v2.3.0
+ * Bootstrap v2.3.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -6109,7 +6109,7 @@ a.badge:focus {
 }
 
 .hero-unit {
-  padding: 40px;
+  padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
